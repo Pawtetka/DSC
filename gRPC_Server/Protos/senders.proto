@@ -1,0 +1,17 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "gRPC_Server";
+
+package senders;
+
+service Sender {
+  rpc SendMessage (MessageRequest) returns (MessageReply);
+}
+
+message MessageRequest {
+  int32 clientId = 1;
+}
+
+message MessageReply {
+  string message = 1;
+}
