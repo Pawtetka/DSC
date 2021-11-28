@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Banks>
+    <Bank Id = "b123">
+        <Name>Monobank</Name>
+        <Country>Ukraine</Country>
+        <Type>PosteRestante</Type>
+        <Depositor>Pavel</Depositor>
+        <AccountId>a567</AccountId>
+        <AmountOnDeposit>12345</AmountOnDeposit>
+        <Profitability>5</Profitability>
+        <TimeConstraints>2020-11-15</TimeConstraints>
+    </Bank>
+    <Bank Id = "b234">
+        <Name>Privat</Name>
+        <Country>Ukraine</Country>
+        <Type>Cumulative</Type>
+        <Depositor>Polina</Depositor>
+        <AccountId>a123</AccountId>
+        <AmountOnDeposit>150000</AmountOnDeposit>
+        <Profitability>20</Profitability>
+        <TimeConstraints>2035-11-15</TimeConstraints>
+    </Bank>
+    <Bank Id = "b345">
+        <Name>Privat</Name>
+        <Country>Ukraine</Country>
+        <Type>Cumulative</Type>
+        <Depositor>Ihor</Depositor>
+        <AccountId>a258</AccountId>
+        <AmountOnDeposit>5000</AmountOnDeposit>
+        <Profitability>1</Profitability>
+        <TimeConstraints>2025-11-15</TimeConstraints>
+    </Bank>
+    <Bank Id = "b456">
+        <Name>Monobank</Name>
+        <Country>Ukraine</Country>
+        <Type>Cumulative</Type>
+        <Depositor>Pavel</Depositor>
+        <AccountId>a139</AccountId>
+        <AmountOnDeposit>10000</AmountOnDeposit>
+        <Profitability>5</Profitability>
+        <TimeConstraints>2025-11-15</TimeConstraints>
+    </Bank>
+    <Bank Id = "b567">
+        <Name>Monobank</Name>
+        <Country>Ukraine</Country>
+        <Type>Savings</Type>
+        <Depositor>Anton</Depositor>
+        <AccountId>a150</AccountId>
+        <AmountOnDeposit>35000</AmountOnDeposit>
+        <Profitability>0</Profitability>
+        <TimeConstraints>2025-11-15</TimeConstraints>
+    </Bank>
+</Banks>

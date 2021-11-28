@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Bank Id = "b123">
+    <Name>Monobank</Name>
+    <Country>Ukraine</Country>
+    <Type>Metal</Type>
+    <Depositor>Pavel</Depositor>
+    <AccountId>a1</AccountId>
+    <AmountOnDeposit>10000</AmountOnDeposit>
+    <Profitability>5</Profitability>
+    <TimeConstraints>2025-11-15</TimeConstraints>
+</Bank>

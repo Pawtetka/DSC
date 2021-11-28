@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+    <xsd:element name="Bank">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Name" type="xs:string" />
+                <xsd:element name="Country" type="xs:string" />
+                <xsd:element name="Type">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xs:string">
+                            <xsd:enumeration value="PosteRestante" />
+                            <xsd:enumeration value="Urgent" />
+                            <xsd:enumeration value="Rated" />
+                            <xsd:enumeration value="Cumulative" />
+                            <xsd:enumeration value="Savings" />
+                            <xsd:enumeration value="Metal" />
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="Depositor" type="xs:string" />
+                <xsd:element name="AccountId" type="xs:ID" />
+                <xsd:element name="AmountOnDeposit">
+                    <xsd:simpleType>
+                        <xs:restriction base="xs:integer">
+                            <xsd:minInclusive value="0" />
+                        </xs:restriction>
+                    </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="Profitability" type="xs:float" />
+                <xsd:element name="TimeConstraints" type="xs:date" />
+            </xsd:sequence>
+            <xsd:attribute name="Id" type="xsd:ID" use="required" />
+        </xsd:complexType>
+    </xsd:element>
+</xs:schema>
